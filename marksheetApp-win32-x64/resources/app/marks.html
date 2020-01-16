@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Marksheet App</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<div class="container">
+		<div class="primary">
+            <nav class="navbar navbar-expand-lg">
+                <div class="navbar-brand inset-text-effect" >Marksheet Generator</div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end"  id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><div class="navbar-text" id="user-name"></div></li>
+                        <li class="nav-item"><a class="nav-link" id="logout">Logout</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="row">
+                <div class="col-3">
+                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <a class="nav-link" href="main.html" role="tab">Student Info</a>
+                    <a class="nav-link active" href="marks.html" role="tab" id="v-pills-profile-tab">Enter Marks</a>
+                    <a class="nav-link" href="report.html" role="tab">Create Marksheet</a>
+                    <a class="nav-link"  href="#v-pills-settings" role="tab">Settings</a>
+                    </div>
+                </div>
+                <div class="col-9">
+                    <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                        <h3>Select the semister for which you want to enter marks</h3>
+                        <div class="list-group">
+                            <a href="Sem1.html" class="list-group-item list-group-item-action">Semister 1</a>
+                            <a href="Sem2.html" class="list-group-item list-group-item-action">Semister 2</a>
+                            <a href="Sem3.html" class="list-group-item list-group-item-action">Semister 3</a>
+                            <a href="Sem4.html" class="list-group-item list-group-item-action">Semister 4</a>
+                            <a href="Sem5.html" class="list-group-item list-group-item-action">Semister 5</a>
+                            <a href="Sem6.html" class="list-group-item list-group-item-action">Semister 6</a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+</div>
+<script type="text/javascript" src="register.js"></script>
+</body>
+</html>

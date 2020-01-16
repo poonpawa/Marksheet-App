@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Marksheet App</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<div class="container">
+		<div class="primary">
+            <nav class="navbar navbar-expand-lg">
+                <div class="navbar-brand inset-text-effect" >Marksheet Generator</div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end"  id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><div class="navbar-text" id="user-name"></div></li>
+                        <li class="nav-item"><a class="nav-link" id="logout">Logout</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="row">
+                <div class="col-3">
+                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <a class="nav-link" href="main.html" role="tab">Student Info</a>
+                    <a class="nav-link" href="marks.html" role="tab">Enter Marks</a>
+                    <a class="nav-link  active" href="report.html" role="tab">Create Marksheet</a>
+                    <a class="nav-link"  href="Import.html" role="tab">Settings</a>
+                    </div>
+                </div>
+                <div class="col-9">
+                    <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab"></div>
+                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab"></div>
+                        <div class="tab-pane fade show active" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                          <p><strong>Import an excel sheet, fill data and import it</strong></p>
+                          <div id="excel_div" style="height:600px ; width :100%; "></div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+<script type="text/javascript" src="register.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "name": "electronapp",
+  "version": "1.0.0",
+  "description": "Marksheet maker project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^1.8.8",
+    "electron-rebuild": "^1.7.3"
+  },
+  "dependencies": {
+    "@grapecity/spread-sheets": "^12.0.6",
+    "electron-packager": "^13.0.1",
+    "handlebars": "^4.0.11",
+    "jquery": "^3.3.1",
+    "password-hash": "^1.2.2",
+    "quickotp": "^1.0.7",
+    "requirejs": "^2.3.5",
+    "sendotp": "^1.2.8"
+  }
+}
