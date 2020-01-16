@@ -1,0 +1,90 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400);
+body {
+  background-color:#fff;
+  -webkit-font-smoothing: antialiased;
+  font: normal 14px Roboto,arial,sans-serif;
+}
+
+body {
+    z-index: auto;
+    background-color: purple;   
+}
+
+.fa {
+  margin: 5px;
+}
+
+.container {
+    height: 100vh;
+    padding : 30px;   
+}
+
+.primary {
+    padding: 3%;
+    height: 100%;
+    border-radius: 15px;
+    border-width: 5px;
+    background-color: #FFE4E1;
+    box-shadow:1px 1px 1px 1px #696969;
+
+}
+
+.form-login {
+    background-color: #87AFC7;    
+    padding: 50px 10px 50px 10px;
+    border-radius: 15px;
+    border-color: #000000;
+    border-width: 5px;
+    box-shadow:1px 1px 1px 1px #696969;
+    width : 70%;
+    height: 80%;
+    margin: 0 auto;
+}
+
+.error {
+  color: red;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+h4 { 
+ border:1 solid #696969; 
+ border-bottom-width:1px;
+ padding-bottom:10px;
+ text-align: center;
+}
+
+.form-control {
+    border-radius: 10px;
+}
+
+.warning {
+  color: red;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.inset-text-effect {
+text-align: center;
+margin-bottom: 60px;
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  font: normal 40px/1 "Aladin", Helvetica, sans-serif;
+  color: rgba(48,48,48,1);
+  text-align: center;
+  text-transform: normal;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  white-space: pre;
+  text-shadow: 1px 1px 0 rgba(140,140,140,0.6) , -1px -1px 1px rgba(0,0,0,0.67) ;
+}
+;
+ 
